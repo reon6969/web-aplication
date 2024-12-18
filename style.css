@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+
+
+    background-image: url(assets/image/1bg.jpg.jpg);
+    height: 60vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw );
+    
+}
+
+.main .box{
+    height: 60vh;
+    width: 100%;
+    opacity:0.44 ;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+nav{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    
+}
+nav image{
+    color: red;
+    width: 62px ;
+    position: relative;
+    z-index: 40;
+}
+nav button{
+    position: relative ;
+    z-index: 10;
+
+}
+.hero{
+    font-family: "Martel", serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+
+}
+
+.zero  .zero_1{
+    display: flex;
+    color: black;
+    text-align: center;
+    
+}
